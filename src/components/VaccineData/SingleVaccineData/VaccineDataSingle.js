@@ -94,7 +94,7 @@ const VaccineDataSingle = (vaccine) => {
               <p>{vaccine.fee_type} </p>
             </div>
           </div>
-          {vaccine.fee_type == "Paid" && (
+          {vaccine.fee_type === "Paid" && (
             <div className="paper-right_age">
               <div className="age_text">
                 <h3>Minimum Fare(₹)</h3>
